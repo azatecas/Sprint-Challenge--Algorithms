@@ -12,4 +12,6 @@ c) Complexity is O(n), although the function is recursive, it only calls itself 
 
 ## Exercise II
 
+I would utilize a Binary Search Tree to find the midpoint, of the building, if eggs still breaks at the midpoint then the floor is still too high, i would go to the lower half way point and repeat until the breaking floor is identified.
 
+The time complexity of this algorythm would be O(logn) because at each point half of all floors will be eliminated as potential solutions.
